@@ -1,0 +1,51 @@
+.card-body {
+  /* The image used */
+  background-image: url("/assets/omnia_sd.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-header {
+  background-color: #338DD9;
+}
+
+.submitBtn {
+  border-radius: 26px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:black;
+  border-style: solid;
+  border-width: 2px;
+  border-color:black;
+  letter-spacing: 5px;
+}
+
+.submitBtn:hover {
+  background-color: chartreuse;
+  color:#338DD9;
+}
+
+.form-control {
+  border-radius: 26px;
+  height: 48px;
+  opacity: 0.9;
+  font-family: 'Open Sans Condensed', sans-serif;
+  border-color:#338DD9;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.input-group>.input-group-append:last-child>.btn:not(:last-child):not(.dropdown-toggle), .input-group>.input-group-append:last-child>.input-group-text:not(:last-child), .input-group>.input-group-append:not(:last-child)>.btn, .input-group>.input-group-append:not(:last-child)>.input-group-text, .input-group>.input-group-prepend>.btn, .input-group>.input-group-prepend>.input-group-text {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 26px;
+  border-bottom-left-radius: 26px;
+  border-color:#338DD9;
+  border-style: solid;
+  border-width: 2px;
+}
