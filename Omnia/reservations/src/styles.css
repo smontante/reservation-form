@@ -1,0 +1,15 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+
+h1, h2, h3, h5, p, label {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body {
+  /* The image used */
+  /* background-image: url("/assets/omnia_sd.jpg"); */
+  background-color:whitesmoke;
+
+  /* Full height */
+  height: 100%;
+}
